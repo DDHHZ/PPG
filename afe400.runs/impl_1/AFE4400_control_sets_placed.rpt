@@ -1,0 +1,101 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Sun Nov  8 01:03:48 2020
+| Host         : LAPTOP-NK6K6PCO running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file AFE4400_control_sets_placed.rpt
+| Design       : AFE4400
+| Device       : xc7z020
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    31 |
+| Unused register locations in slices containing registers |    72 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            6 |
+|      4 |            3 |
+|      5 |            1 |
+|      6 |            4 |
+|      8 |           13 |
+|     14 |            1 |
+|    16+ |            3 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |             123 |           50 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             189 |           44 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------+-------------------------------+-----------------------------+------------------+----------------+
+|        Clock Signal       |         Enable Signal         |       Set/Reset Signal      | Slice Load Count | Bel Load Count |
++---------------------------+-------------------------------+-----------------------------+------------------+----------------+
+|  clk_IBUF_BUFG            |                               | i1/u4/brt_tx_data_reg[7]_0  |                1 |              1 |
+|  clk_IBUF_BUFG            |                               | i1/u1/spisimo_reg_0         |                1 |              1 |
+|  spi_count_reg[3]_i_2_n_0 | i1/u5/diag_end_en_i_1_n_0     | i3/I0/frameCnt_tmp_reg[0]_0 |                1 |              1 |
+|  spi_count_reg[3]_i_2_n_0 | i1/u4/spisimo_reg             | i1/u1/spisimo_reg_0         |                1 |              1 |
+|  spi_count_reg[3]_i_2_n_0 | i3/I0/rdover_tmp_i_1_n_0      | i1/u4/brt_tx_data_reg[7]_0  |                1 |              1 |
+|  spi_count_reg[3]_i_2_n_0 | dataReady_OBUF                | i3/I0/frameCnt_tmp_reg[0]_0 |                1 |              1 |
+|  spi_count_reg[3]_i_2_n_0 |                               | i1/u1/spisimo_reg_0         |                4 |              4 |
+|  spi_count_reg[3]_i_2_n_0 | i3/I0/frameCnt_tmp[3]_i_1_n_0 | i3/I0/frameCnt_tmp_reg[0]_0 |                1 |              4 |
+|  spi_count_reg[3]_i_2_n_0 | i3/I1/bitCtr_tmp[3]_i_1_n_0   | i3/I0/frameCnt_tmp_reg[0]_0 |                1 |              4 |
+|  clk_IBUF_BUFG            | count_a[4]_i_1_n_0            | i1/u4/brt_tx_data_reg[7]_0  |                1 |              5 |
+|  spi_count_reg[3]_i_2_n_0 | i1/u3/aled2[21]_i_1_n_0       | i1/u3/aled2_reg[0]_0        |                1 |              6 |
+|  spi_count_reg[3]_i_2_n_0 | i1/u3/aled1[21]_i_1_n_0       | i1/u3/aled2_reg[0]_0        |                1 |              6 |
+|  spi_count_reg[3]_i_2_n_0 | i1/u3/led1[21]_i_1_n_0        | i1/u3/aled2_reg[0]_0        |                1 |              6 |
+|  spi_count_reg[3]_i_2_n_0 | i1/u3/led2[21]_i_1_n_0        | i1/u3/aled2_reg[0]_0        |                1 |              6 |
+|  spi_count_reg[3]_i_2_n_0 | i1/u3/aled2[7]_i_1_n_0        | i1/u3/aled2_reg[0]_0        |                1 |              8 |
+|  spi_count_reg[3]_i_2_n_0 | i1/u3/aled2[15]_i_1_n_0       | i1/u3/aled2_reg[0]_0        |                1 |              8 |
+|  spi_count_reg[3]_i_2_n_0 | i1/u3/aled1[15]_i_1_n_0       | i1/u3/aled2_reg[0]_0        |                1 |              8 |
+|  spi_count_reg[3]_i_2_n_0 | i1/u3/aled1[7]_i_1_n_0        | i1/u3/aled2_reg[0]_0        |                1 |              8 |
+|  spi_count_reg[3]_i_2_n_0 | i1/u3/led2[7]_i_1_n_0         | i1/u3/aled2_reg[0]_0        |                1 |              8 |
+|  spi_count_reg[3]_i_2_n_0 | i1/u3/led2[15]_i_1_n_0        | i1/u3/aled2_reg[0]_0        |                1 |              8 |
+|  spi_count_reg[3]_i_2_n_0 | i1/u3/led1[15]_i_1_n_0        | i1/u3/aled2_reg[0]_0        |                1 |              8 |
+|  spi_count_reg[3]_i_2_n_0 | i1/u3/led1[7]_i_1_n_0         | i1/u3/aled2_reg[0]_0        |                1 |              8 |
+|  spi_count_reg[3]_i_2_n_0 | i1/u4/led_value1              | i3/I0/frameCnt_tmp_reg[0]_0 |                3 |              8 |
+|  spi_count_reg[3]_i_2_n_0 | i1/u4/led_value2              | i3/I0/frameCnt_tmp_reg[0]_0 |                3 |              8 |
+|  spi_count_reg[3]_i_2_n_0 | i1/u4/brt_tx_data[7]_i_1_n_0  | i1/u4/brt_tx_data_reg[7]_0  |                4 |              8 |
+|  spi_count_reg[3]_i_2_n_0 | i1/u4/E[0]                    | i1/u4/brt_tx_data_reg[7]_0  |                3 |              8 |
+|  spi_count_reg[3]_i_2_n_0 | i1/u1/E[0]                    | i3/I0/frameCnt_tmp_reg[0]_0 |                3 |              8 |
+|  spi_count_reg[3]_i_2_n_0 |                               | i1/u3/aled2_reg[0]_0        |                3 |             14 |
+|  spi_count_reg[3]_i_2_n_0 |                               | i3/I0/frameCnt_tmp_reg[0]_0 |               12 |             24 |
+|  spi_count_reg[3]_i_2_n_0 | i3/I0/rdover_tmp_i_1_n_0      | i3/I0/frameCnt_tmp_reg[0]_0 |                9 |             44 |
+|  spi_count_reg[3]_i_2_n_0 |                               | i1/u4/brt_tx_data_reg[7]_0  |               29 |             79 |
++---------------------------+-------------------------------+-----------------------------+------------------+----------------+
+
+

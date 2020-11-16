@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1604768560">
+  <File Type="ROUTE-PWR" Name="AFE4400_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="AFE4400.tcl"/>
+  <File Type="PWROPT-DCP" Name="AFE4400_pwropt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="AFE4400_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="AFE4400_reports.tcl"/>
+  <File Type="BG-DRC" Name="AFE4400.drc"/>
+  <File Type="OPT-HWDEF" Name="AFE4400.hwdef"/>
+  <File Type="OPT-DCP" Name="AFE4400_opt.dcp"/>
+  <File Type="OPT-DRC" Name="AFE4400_drc_opted.rpt"/>
+  <File Type="PLACE-DCP" Name="AFE4400_placed.dcp"/>
+  <File Type="PLACE-IO" Name="AFE4400_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="AFE4400_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="AFE4400_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="AFE4400_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="AFE4400_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="AFE4400_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="AFE4400_physopt.dcp"/>
+  <File Type="BG-BIT" Name="AFE4400.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="AFE4400_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="AFE4400_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="AFE4400_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="AFE4400_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="AFE4400_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="AFE4400_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="AFE4400.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="AFE4400_methodology_drc_routed.rpt"/>
+  <File Type="BG-BGN" Name="AFE4400.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="AFE4400_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="AFE4400.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="AFE4400_methodology_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="AFE4400.bin"/>
+  <File Type="ROUTE-PWR-RPX" Name="AFE4400_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="AFE4400_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="AFE4400_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="AFE4400_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="AFE4400_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="AFE4400_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="AFE4400_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="AFE4400.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="AFE4400_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="AFE4400_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="AFE4400.nky"/>
+  <File Type="BITSTR-BMM" Name="AFE4400_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="AFE4400.mmi"/>
+  <File Type="BITSTR-LTX" Name="AFE4400.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="AFE4400.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/adc.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/adc.v"/>
+        <Attr Name="ImportTime" Val="1576725374"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/brt_adj.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/brt_adj.v"/>
+        <Attr Name="ImportTime" Val="1576055726"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/clk_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/clk_gen.v"/>
+        <Attr Name="ImportTime" Val="1578022478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/diag.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/diag.v"/>
+        <Attr Name="ImportTime" Val="1576125227"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/ini.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/ini.v"/>
+        <Attr Name="ImportTime" Val="1578557918"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/spi.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/spi.v"/>
+        <Attr Name="ImportTime" Val="1572922774"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/spi_total.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/spi_total.v"/>
+        <Attr Name="ImportTime" Val="1578024689"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/uart.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/uart.v"/>
+        <Attr Name="ImportTime" Val="1577933381"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/uart_tx_control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/uart_tx_control.v"/>
+        <Attr Name="ImportTime" Val="1577942296"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/uart_tx_driver.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/uart_tx_driver.v"/>
+        <Attr Name="ImportTime" Val="1576490398"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/AFE4400.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/AFE4400.v"/>
+        <Attr Name="ImportTime" Val="1604754496"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="AFE4400"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/afe400.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/afe400.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

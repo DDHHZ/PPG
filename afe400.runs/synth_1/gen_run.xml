@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1604768478">
+  <File Type="PA-TCL" Name="AFE4400.tcl"/>
+  <File Type="REPORTS-TCL" Name="AFE4400_reports.tcl"/>
+  <File Type="RDS-RDS" Name="AFE4400.vds"/>
+  <File Type="RDS-UTIL" Name="AFE4400_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="AFE4400_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="AFE4400.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/adc.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/adc.v"/>
+        <Attr Name="ImportTime" Val="1576725374"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/brt_adj.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/brt_adj.v"/>
+        <Attr Name="ImportTime" Val="1576055726"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/clk_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/clk_gen.v"/>
+        <Attr Name="ImportTime" Val="1578022478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/diag.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/diag.v"/>
+        <Attr Name="ImportTime" Val="1576125227"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/ini.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/ini.v"/>
+        <Attr Name="ImportTime" Val="1578557918"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/spi.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/spi.v"/>
+        <Attr Name="ImportTime" Val="1572922774"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/spi_total.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/spi_total.v"/>
+        <Attr Name="ImportTime" Val="1578024689"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/uart.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/uart.v"/>
+        <Attr Name="ImportTime" Val="1577933381"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/uart_tx_control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/uart_tx_control.v"/>
+        <Attr Name="ImportTime" Val="1577942296"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/uart_tx_driver.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/uart_tx_driver.v"/>
+        <Attr Name="ImportTime" Val="1576490398"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/afe400/AFE4400.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/AFE4400.v"/>
+        <Attr Name="ImportTime" Val="1604754496"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="AFE4400"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/afe400.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/afe400.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

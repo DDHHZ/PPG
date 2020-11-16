@@ -1,0 +1,178 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 2188
+License: Customer
+
+Current time: 	Wed Nov 11 17:13:54 CST 2020
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 15 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/vivado/Vivado/2018.1/tps/win64/jre
+Java executable location: 	D:/vivado/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	23216
+User home directory: C:/Users/23216
+User working directory: C:/Users/23216/Desktop/test/afe400
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/vivado/Vivado
+HDI_APPROOT: D:/vivado/Vivado/2018.1
+RDI_DATADIR: D:/vivado/Vivado/2018.1/data
+RDI_BINDIR: D:/vivado/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/23216/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/23216/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/23216/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	D:/vivado/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/23216/Desktop/test/afe400/vivado.log
+Vivado journal file location: 	C:/Users/23216/Desktop/test/afe400/vivado.jou
+Engine tmp dir: 	C:/Users/23216/Desktop/test/afe400/.Xil/Vivado-2188-LAPTOP-NK6K6PCO
+
+GUI allocated memory:	193 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 525 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 49 MB (+48437kb) [00:00:14]
+// [Engine Memory]: 507 MB (+380312kb) [00:00:14]
+// Opening Vivado Project: C:\Users\23216\Desktop\test\afe400\afe400.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 60 MB (+9692kb) [00:00:15]
+// Tcl Message: open_project C:/Users/23216/Desktop/test/afe400/afe400.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/23216/Desktop/test/afe400/afe400.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 34 MB. Current time: 11/11/20 5:13:57 PM CST
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2018.1/data/ip'. 
+// [Engine Memory]: 543 MB (+11374kb) [00:00:20]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 579 MB (+8594kb) [00:00:24]
+// Tcl Message: open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:15 . Memory (MB): peak = 816.211 ; gain = 77.953 
+// Project name: afe400; location: C:/Users/23216/Desktop/test/afe400; part: xc7z020clg400-1
+// [Engine Memory]: 639 MB (+32998kb) [00:00:31]
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 640 MB. GUI used memory: 39 MB. Current time: 11/11/20 5:14:12 PM CST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, ch) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bv (ch):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bv (ch)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ch)
+// Elapsed time: 20 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bv (ch):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.1   **** Build date : Apr  4 2018-19:32:53     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 845.199 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/003017A4D163A 
+// [GUI Memory]: 68 MB (+5021kb) [00:01:15]
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Elapsed time: 19 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (bv)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,234 MB. GUI used memory: 40 MB. Current time: 11/11/20 5:15:02 PM CST
+// [Engine Memory]: 1,235 MB (+591019kb) [00:01:23]
+// Tcl Message: open_hw_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1443.500 ; gain = 598.301 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/23216/Desktop/test/afe400/afe400.runs/impl_1/AFE4400.bit} [get_hw_devices xc7z020_1] 
+// Tcl Message: current_hw_device [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0). 
+dismissDialog("Auto Connect"); // bv (ch)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ch)
+// PAPropertyPanels.initPanels (xc7z020_1) elapsed time: 0.3s
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ch): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bv (ch):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ch)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7z020_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/23216/Desktop/test/afe400/afe400.runs/impl_1/AFE4400.bit} [get_hw_devices xc7z020_1] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 5 seconds
+// [GUI Memory]: 76 MB (+4657kb) [00:01:31]
+dismissDialog("Program Device"); // bv (ch)
+// [Engine Memory]: 1,308 MB (+11897kb) [00:01:34]
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// [GUI Memory]: 81 MB (+903kb) [00:05:34]
+// [GUI Memory]: 85 MB (+547kb) [00:19:15]
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/003017A4D163A 
+// n (ch): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
